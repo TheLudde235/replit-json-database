@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-export default class jsonDB {
+export default class Database {
   #jsonData = '';
   #path; 
   constructor(path = './database.json') {
